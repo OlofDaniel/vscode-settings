@@ -3,25 +3,26 @@ vscode-settings
 
 Settings:
 
-{
-    "redhat.telemetry.enabled": false,
+    
+     {
+        "redhat.telemetry.enabled": false,
+    
+        "workbench.statusBar.visible": false,
+        "workbench.sideBar.location": "right",
+        "workbench.editor.showTabs": "none",
+        "editor.snippetSuggestions": "top",
+        "editor.minimap.enabled": false,
+        "editor.linkedEditing": true,
+        "workbench.colorTheme": "Visual Studio Dark",
+        "editor.renderLineHighlight": "none",
+        "editor.guides.indentation": false,
+    
+        "editor.scrollbar.verticalScrollbarSize": 5,
+    
+        "editor.padding.top": 35,
 
-    "workbench.statusBar.visible": false,
-    "workbench.sideBar.location": "right",
-    "workbench.editor.showTabs": "none",
-    "editor.snippetSuggestions": "top",
-    "editor.minimap.enabled": false,
-    "editor.linkedEditing": true,
-    "workbench.colorTheme": "Visual Studio Dark",
-    "editor.renderLineHighlight": "none",
-    "editor.guides.indentation": false,
-
-    "editor.scrollbar.verticalScrollbarSize": 5,
-
-    "editor.padding.top": 35,
-
-    //Colors
-    "workbench.colorCustomizations": {
+        //Colors
+        "workbench.colorCustomizations": {
         "titleBar.activeBackground": "#1c242b",
         "titleBar.activeForeground": "#FFFFFF",
         "titleBar.inactiveBackground": "#1c242b",
@@ -43,11 +44,6 @@ Settings:
 
         "breadcrumb.foreground": "#69aff9",
 
-    },
-    "workbench.startupEditor": "none",
-   
-    
-
-
-
-}
+        },
+        "workbench.startupEditor": "none",
+    }
