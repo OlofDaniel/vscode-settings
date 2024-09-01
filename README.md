@@ -44,6 +44,10 @@ Settings:
 
         "breadcrumb.foreground": "#69aff9",
 
+        "focusBorder":"#5daac009",
+
         },
         "workbench.startupEditor": "none",
+        "workbench.colorTheme": "Visual Studio Dark",
+        "breadcrumbs.enabled": false,
     }
