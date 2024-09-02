@@ -3,51 +3,70 @@ vscode-settings
 
 Settings:
 
+    {
+        "workbench.iconTheme": "vscode-icons",
     
-     {
-        "redhat.telemetry.enabled": false,
-    
-        "workbench.statusBar.visible": false,
-        "workbench.sideBar.location": "right",
-        "workbench.editor.showTabs": "none",
-        "editor.snippetSuggestions": "top",
+        //Orientering/Barer/Streck
+        "workbench.statusBar.visible": true,
+        "workbench.sideBar.location": "left",
+        "workbench.editor.showTabs": "multiple",
         "editor.minimap.enabled": false,
         "editor.linkedEditing": true,
-        "workbench.colorTheme": "Visual Studio Dark",
         "editor.renderLineHighlight": "none",
-        "editor.guides.indentation": false,
-    
-        "editor.scrollbar.verticalScrollbarSize": 5,
-    
-        "editor.padding.top": 35,
-
-        //Colors
-        "workbench.colorCustomizations": {
-        "titleBar.activeBackground": "#1c242b",
-        "titleBar.activeForeground": "#FFFFFF",
-        "titleBar.inactiveBackground": "#1c242b",
-
-        "editor.background": "#1c242b", 
-
-        "sideBar.background": "#1c242b",
-    
-        "activityBar.background": "#1c242b",
-        "activityBar.foreground": "#405363",
-
-        "scrollbar.shadow": "#1c242b",
-        "scrollbarSlider.background": "#5daac009",
-        "scrollbarSlider.hoverBackground": "#5daac009",
-        "scrollbarSlider.activeBackground": "#5daac009",
-
-        "editorLineNumber.activeForeground": "#b4d2fae8",
-        "editorLineNumber.foreground": "#84b9ff41",
-
-        "breadcrumb.foreground": "#69aff9",
-
-        "focusBorder":"#5daac009",
-
-        },
+        "editor.guides.indentation": false, //For-loop streck
+        "editor.scrollbar.verticalScrollbarSize": 10,
+        "editor.padding.top": 25,
         "workbench.startupEditor": "none",
-        "workbench.colorTheme": "Visual Studio Dark",
         "breadcrumbs.enabled": false,
+    
+    
+        //Under kodning
+        "editor.snippetSuggestions": "top",
+    
+    
+        //Färger
+        "workbench.colorCustomizations": {
+            "editor.background": "#21282dfe", //Bakgrund
+    
+            "titleBar.activeBackground": "#21282dfe", //Titel-bar
+            "titleBar.activeForeground": "#FFFFFF",
+            "titleBar.inactiveBackground": "#21282dfe",
+            "titleBar.border": "#00000000", //Border över tabs
+    
+            "sideBar.background": "#1d1f21fe", //Sidbaren
+            "activityBar.background": "#1d1f21fe",
+            "activityBar.foreground": "#405363",
+            "sideBar.border": "#000000",        //Mellan öppen o editor
+            "activityBar.border": "#00000000",   // Mellan ikoner o öppen
+            "sideBarSectionHeader.background": "#1d1f21fe",  // Bakom Outline, timeline
+    
+    
+            "scrollbar.shadow": "#21282dfe",    //Skroll-bar
+            "scrollbarSlider.background": "#4d4d4d",
+            "scrollbarSlider.hoverBackground": "#4d4d4d",
+            "scrollbarSlider.activeBackground": "#4d4d4d",
+    
+            "editorLineNumber.activeForeground": "#a3a3a3", //Editor nummer
+            "editorLineNumber.foreground": "#4d4d4d",
+    
+            "focusBorder":"#5daac009",
+    
+            "tab.activeBackground": "#404e58fe",  //Tabs
+            "tab.inactiveBackground": "#21282dfe",
+            "tab.activeForeground": "#FFFFFF",
+            "tab.inactiveForeground": "#AAAAAA",
+            "tab.border": "#21282dfe",
+            "tab.activeBorderTop": "#21282dfe",
+            "editorGroupHeader.tabsBackground": "#21282dfe", //Bakgrund bakom tabs
+            "editorGroupHeader.tabsBorder": "#00000000", // Border runt tabs
+    
+            "statusBar.background": "#1d1f21fe",    //Statusbaren
+            "statusBar.foreground": "#FFFFFF",
+            "statusBar.border": "#1d1f21fe",
+            "statusBar.noFolderBackground": "#1d1f21fe",
+            "statusBar.noFolderForeground": "#FFFFFF",
+            "statusBar.debuggingBackground": "#1d1f21fe",
+            "statusBar.debuggingForeground": "#FFFFFF",
+            "statusBarItem.remoteBackground": "#1d1f21fe",
+        }
     }
