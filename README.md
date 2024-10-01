@@ -3,7 +3,7 @@
 
 
         //Editor
-        "editor.background": "#232628", 
+        "editor.background": "#1f2328", 
         "editor.foreground": "#DCDEDF",
 
     
@@ -26,7 +26,7 @@
 
         //Activity bar
         "activityBar.border": "#00000000",
-        "activityBar.background": "#232628",
+        "activityBar.background": "#1f2328",
         "activityBar.foreground": "#DCDEDF",
         "activityBar.inactiveForeground": "#8C8C8C",
 
@@ -47,11 +47,11 @@
         "tab.hoverBackground": "#00000000",
         "tab.hoverForeground": "#969696",
 
-        "tab.activeBackground": "#232628", 
-        "tab.inactiveBackground": "#191a1c",
-        "tab.activeForeground": "#DCDEDF",
-        "tab.inactiveForeground": "#969696",
-        "editorGroupHeader.tabsBackground": "#191a1c", //Bakgrund bakom tabs
+        "tab.activeBackground": "#1f2328", 
+        "tab.inactiveBackground": "#1f2328",
+        "tab.activeForeground": "#FFFFFF",
+        "tab.inactiveForeground": "#6a6a6ac8",
+        "editorGroupHeader.tabsBackground": "#1f2328", //Bakgrund bakom tabs
 
 
         //Statusbar
@@ -65,10 +65,10 @@
 
 
         //Title bar
-        "titleBar.activeBackground": "#232628", 
-        "titleBar.activeForeground": "#232628",
-        "titleBar.inactiveBackground": "#232628",
-        "titleBar.inactiveForeground": "#232628",
+        "titleBar.activeBackground": "#1f2328", 
+        "titleBar.activeForeground": "#1f2328",
+        "titleBar.inactiveBackground": "#1f2328",
+        "titleBar.inactiveForeground": "#1f2328",
         "titleBar.border": "#00000000",
 
 
@@ -86,36 +86,36 @@
 
 
         //Terminal
-        "terminal.background": "#232628",
+        "terminal.background": "#1f2328",
         "terminal.foreground": "#DCDEDF", 
-        "panel.background": "#232628",
+        "panel.background": "#1f2328",
         "terminal.border": "#00000000" ,
     },
 
 
     //Text color
     "editor.tokenColorCustomizations": {
-    "comments": "#00ff993c",           // Kommentarers färg
-    "keywords": "#87dbff",           // Nyckelord (t.ex. if, for, return)
-    "strings": "#40c6ff",            // Strängar (text inom citationstecken)
-    "variables": "#dbdbdb",          // Variabelnamn
+    "comments": "#c6ffd584",           // Kommentarers färg
+    "keywords": "#e4ce9b",           // Nyckelord (t.ex. if, for, return)
+    "strings": "#95ddfb",            // Strängar (text inom citationstecken)
+    "variables": "#528499",          // Variabelnamn
     "textMateRules": [
       {
         "scope": "entity.name.type.class", // Klasser (t.ex. Sorting)
         "settings": {
-          "foreground": "#be9bff"
+          "foreground": "#00bbff"
         }
       },
       {
         "scope": "entity.name.function", // Metoder (t.ex. not_efficient_sorting)
         "settings": {
-          "foreground": "#00b3ff"
+          "foreground": "#95ddfb"
         }
       },
       {
         "scope": "variable.parameter", // Parametrar i metoder (t.ex. int[] array)
         "settings": {
-          "foreground": "#00ebd4"
+          "foreground": "#66fee5"
         }
       },
       {
@@ -134,6 +134,12 @@
         "scope": "keyword.operator.assignment", // För "=" tecknet
         "settings": {
           "foreground": "#ffffff"  // Färgen du vill ha för "="
+        }
+      },
+      {
+        "scope": "constant.numeric", // Matchar siffror
+        "settings": {
+          "foreground": "#ffffff" // Färgen för siffror (röd i detta fall)
         }
       },
     ]
@@ -165,7 +171,7 @@
 
 
     //Statusbar
-    "workbench.statusBar.visible": true,
+    "workbench.statusBar.visible": false,
 
 
     //Sidebar
