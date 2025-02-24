@@ -1,4 +1,5 @@
-    
+#Theme
+
     { "workbench.colorCustomizations": {
     
         //Editor
@@ -230,3 +231,27 @@
     
     
     }
+
+#Keybindings
+
+    // Place your key bindings in this file to override the defaults
+    [
+        {
+            "key": "ctrl+j",
+            "command": "cursorDown", 
+        },
+        {
+            "key": "ctrl+k",
+            "command": "cursorUp", 
+        },
+        {
+            "key": "ctrl+h",
+            "command": "cursorLeft", 
+        },
+        {
+            "key": "ctrl+l",
+            "command": "cursorRight", 
+        }
+    ]
+
+
